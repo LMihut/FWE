@@ -18,29 +18,44 @@ npm run typeorm schema:sync # Create the schema depending on your data in `backe
 
 ## Documentation: CRUD System
 - Get all the jokes (**GET** Request) 
-    - <code>http://localhost:4000/api/joke/</code>
+```bash
+http://localhost:4000/api/joke/
+```
 - Create / Insert a new joke (**POST** Request)
-    - <code>http://localhost:4000/api/joke/<code>
+```bash
+    http://localhost:4000/api/joke/
+```
 - Get a joke by ID (**GET** Request) 
-    - <code> http://localhost:4000/api/joke/:id</code>
+```bash
+    http://localhost:4000/api/joke/:id
+```
 - Delete a joke by ID (**DELETE** Request) 
-    - <code>http://localhost:4000/api/joke/:id</code>
+```bash
+    http://localhost:4000/api/joke/:id
+```
 - Update a joke by ID (**PATCH** Request) 
-    - <code>http://localhost:4000/api/joke/:id</code>
+```bash
+    http://localhost:4000/api/joke/:id
+```
 
 - Delete all the jokes (**DELETE** Request)
-    - <code> http://localhost:4000/api/joke/ </code>
+```bash
+    http://localhost:4000/api/joke/
+```
 
 
 ## Rating system
 The rating of Jokes is defined by the variable `count` inside of entity Joke. The best score is `5` and the worse score is `1`.`0` mean that the joke never received a notation. 
 - GET all the Jokes with the Rating = `x`
-    - <code> http://localhost:4000/api/top/:rating </code>
+```bash
+    http://localhost:4000/api/top/:rating
+```
 
 ## Export and download the jokes in CSV format
 To extract and download all jokes as `csv` file you can use the following endpoints inside a browser: 
-- <code> http://localhost:4000/api/download/all </code>
-- You can find the download file under: <a href = "https://code.fbi.h-da.de/istlomihu/fwe-ss-21-759509/-/blob/master/backend/exportJokes.csv">`./fwe-ss-21-759509/backend/exportJokes.csv`</a>
+```bash
+http://localhost:4000/api/download/all
+```
 
 ## External API 
 - Get jokes from external API (**GET** Request)
