@@ -26,23 +26,23 @@ It correctly bundles React in production mode and optimizes the build for the be
 # JOKES4FWE
 
 ## Icons significations
-![add](Docs/addIcon.png) <strong>`Add Icon`</strong>
-![download](Docs/downloadIcon.png) <strong>`Download Icon`</strong>
+![add](docs/addIcon.png) <strong>`Add Icon`</strong>
+![download](docs/downloadIcon.png) <strong>`Download Icon`</strong>
 
 
 ## Home
 On the `HOME` Page you can:
 #### See a list of all the jokes
-<img src=Docs/home.png width="60%">
+<img src=docs/home.png width="60%">
 
 #### Add a new joke to the list
-<img src=Docs/addJoke.png width="30%">
+<img src=docs/addJoke.png width="30%">
 
 #### Update a joke
-<img src=Docs/editJoke.png width="60%">
+<img src=docs/editJoke.png width="60%">
 
 #### Delete a joke
-<img src=Docs/delete.png width="30%">
+<img src=docs/delete.png width="30%">
 
 #### Download all the Jokes as CSV-File
-<img src=Docs/download.png width="60%">
+<img src=docs/download.png width="60%">
